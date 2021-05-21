@@ -164,6 +164,7 @@
   z-index: 5;
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 .table__cell {
@@ -189,7 +190,7 @@
   position: relative;
   padding-top: 100px;
   background-color: #f2f2f2;
-  height: 790px;
+  min-height: 790px;
 }
 
 .feynman__image {
@@ -214,7 +215,7 @@
   position: relative;
   margin: 70px 0 0 0;
   text-align: center;
-  z-index: 20;
+  z-index: 10;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -230,6 +231,7 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  z-index: 50;
 }
 
 .kaufman {
