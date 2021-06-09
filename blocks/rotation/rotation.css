@@ -1,12 +1,12 @@
 @keyframes rotate {
-    from{
-        transform:rotate(-15deg);
-    }
-    to {
-        transform:rotate(345deg);
-    }
+  from {
+    transform: rotate(-15deg);
+  }
+  to {
+    transform: rotate(345deg);
+  }
 }
 
 .rotation {
-    animation: rotate 20s linear infinite;
+  animation: rotate 20s linear infinite;
 }
